@@ -2050,7 +2050,7 @@ dependencies = [
 [[package]]
 name = "moo"
 version = "0.0.4"
-source = "git+https://github.com/KheMoos/Moo.git?rev=10c8514272e85eda49485772fcb2f5175a853b40#10c8514272e85eda49485772fcb2f5175a853b40"
+source = "git+https://github.com/KheMoos/Moo.git?rev=2bfb2c607a7fe61369aacaa8ce1061b8427d12d7#2bfb2c607a7fe61369aacaa8ce1061b8427d12d7"
 dependencies = [
  "anyhow",
  "bytemuck",

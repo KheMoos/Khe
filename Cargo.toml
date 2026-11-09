@@ -13,7 +13,7 @@ default = []
 grpc = ["moo/grpc", "dep:tonic", "dep:prost", "dep:tokio"]
 
 [dependencies]
-moo = { git = "https://github.com/KheMoos/Moo.git", rev = "10c8514272e85eda49485772fcb2f5175a853b40" }
+moo = { git = "https://github.com/KheMoos/Moo.git", rev = "2bfb2c607a7fe61369aacaa8ce1061b8427d12d7" }
 winit = { version = "0.30", features = ["rwh_06"] }
 wgpu = "27"
 bytemuck = { version = "1", features = ["derive"] }
