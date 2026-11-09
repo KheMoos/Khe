@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="docs/assets/khe-whale-v1.png" alt="Khe, the pale blue whale" width="220">
+  <img src="docs/assets/khe-whale-v1.png" alt="Khe icon" width="220">
 </p>
 
 # Khe
 
-**Khe is the whale: the rendering engine of [KheMoos](https://github.com/KheMoos).**
+**Khe is a Rust rendering engine for real-world simulation and scientific visualization.**
 
-Khe develops our own Rust rendering engine for real-world simulation: materials, lighting, fluid surfaces, and scientific visualization. Its companion, [Moo](https://github.com/KheMoos/Moo), is the moon and the general physics engine.
+Khe develops our own Rust rendering engine for real-world simulation: materials, lighting, fluid surfaces, and scientific visualization. Its companion, [Moo](https://github.com/KheMoos/Moo), provides the general physics engine.
 
 ## Current state
 
