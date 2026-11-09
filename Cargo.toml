@@ -2,6 +2,8 @@
 name = "khe"
 version = "0.0.4"
 edition = "2024"
+description = "KheMoos rendering engine and interactive visualization application"
+repository = "https://github.com/KheMoos/Khe"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
@@ -11,7 +13,7 @@ default = []
 grpc = ["moo/grpc", "dep:tonic", "dep:prost", "dep:tokio"]
 
 [dependencies]
-moo = { path = "../moo" }
+moo = { git = "https://github.com/KheMoos/Moo.git", rev = "10c8514272e85eda49485772fcb2f5175a853b40" }
 winit = { version = "0.30", features = ["rwh_06"] }
 wgpu = "27"
 bytemuck = { version = "1", features = ["derive"] }
